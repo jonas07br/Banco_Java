@@ -14,24 +14,26 @@ public class ContaTerminal {
 
         System.out.println("Olá, seja bem vindo ao Banco Java!");
         System.out.println("Vamos criar sua conta!");
-
+        
+        //receber nome
         System.out.print("Informe seu nome:");
         cliente.setNomeCliente(scan.nextLine());
-
         System.out.println();
-
+        
+        //receber agencia
         System.out.print("Informe sua Agencia:");
         cliente.setAgencia(scan.nextLine());
-
         System.out.println();
-
+        
+        //receber numero da conta
         System.out.print("Informe o número da sua conta:");
         cliente.setNumConta(scan.nextInt());
-
         System.out.println();
 
+        //receber saldo
         System.out.print("Informe seu saldo:");
         cliente.setSaldo(scan.nextFloat());
+        System.out.println();
 
 
         System.out.print("Olá "+cliente.getNomeCliente());
