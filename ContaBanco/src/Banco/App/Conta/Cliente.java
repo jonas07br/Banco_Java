@@ -13,6 +13,16 @@ public class Cliente {
         numConta=00000;
         saldo=0;
     }
+    
+    //Construtor com parâmetros
+    public Cliente(String nome,int num,String agencia_,float saldo_){
+        nomeCliente = nome;
+        numConta = num;
+        agencia=agencia_;
+        saldo = saldo_;
+
+    }
+
     //DEFS_SET---------------------------------
     public void setNomeCliente(String nome){
         nomeCliente = nome;
