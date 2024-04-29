@@ -3,9 +3,12 @@ package Banco.App.Terminal;
 import java.util.Scanner;
 import Banco.App.Conta.Cliente;
 
+@SuppressWarnings("resource")
+
 public class ContaTerminal {
 
     public static void main(String[] args) throws Exception {
+        
         Scanner scan = new Scanner(System.in);
         Cliente cliente = new Cliente();
 
