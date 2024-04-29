@@ -6,6 +6,13 @@ public class Cliente {
     private int numConta;
     private float saldo;
 
+    //Construtor padrão
+    public Cliente(){
+        nomeCliente="ABCABC";
+        agencia="123-ABC";
+        numConta=00000;
+        saldo=0;
+    }
     //DEFS_SET---------------------------------
     public void setNomeCliente(String nome){
         nomeCliente = nome;
