@@ -1,4 +1,13 @@
 package Banco.App.Conta;
+/**
+ * <h1>Cliente</h1>
+ * A classe possui 4 atributos privados(nome,numConta,agencia e saldo)
+ * <p>
+ * Cada atributo possui seu respectivo método SET
+ * @author Jonas Rafael
+ * @version 1.0
+ */
+
 public class Cliente {
     //Atributos-----------------
     private String nomeCliente;
@@ -13,7 +22,7 @@ public class Cliente {
         numConta=00000;
         saldo=0;
     }
-    
+
     //Construtor com parâmetros
     public Cliente(String nome,int num,String agencia_,float saldo_){
         nomeCliente = nome;
