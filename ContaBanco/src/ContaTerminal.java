@@ -1,7 +1,6 @@
-package Banco.App.Terminal;
+
 
 import java.util.Scanner;
-import Banco.App.Conta.Cliente;
 
 @SuppressWarnings("resource")
 
